@@ -1,149 +1,148 @@
 # 🏨 Travel & Tourism Customer Retention Analysis
 
-## 📌 Project Overview
+## Project Overview
 
-This project analyzes hotel booking data to understand the key factors affecting booking cancellations and customer retention. The project involves data preprocessing, feature engineering, exploratory data analysis (EDA), statistical analysis, and visualization using Python.
-
----
-
-## 🛠️ Tech Stack
-
-- Python
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Git & GitHub
+This project analyzes hotel booking data to understand customer booking behavior and identify the factors that influence booking cancellations. The project includes data cleaning, feature engineering, exploratory data analysis (EDA), and predictive modeling using Python.
 
 ---
 
-## 📂 Project Structure
+## Technologies Used
 
-```
-Travel-Tourism-Customer-Retention-Analysis/
+* Python
+* Jupyter Notebook
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Git & GitHub
+
+---
+
+## Dataset
+
+* Dataset: Hotel Booking Demand Dataset
+* Records: 119,390
+* Target Variable: **is_canceled**
+
+---
+
+## Week 1 Progress
+
+### Day 1
+
+* Created the GitHub repository.
+* Loaded the hotel booking dataset into Jupyter Notebook.
+* Explored the dataset using `head()`, `shape()`, `info()`, and `describe()`.
+* Checked missing values and data types.
+
+### Day 2
+
+* Removed duplicate records.
+* Handled missing values.
+* Corrected data types.
+* Saved the cleaned dataset.
+
+### Day 3
+
+* Performed feature engineering.
+* Created new features:
+
+  * Total Stay Nights
+  * Total Guests
+  * Booking Changed
+  * Previous Cancellation Flag
+  * Special Request Flag
+
+### Day 4
+
+* Validated the processed dataset.
+* Checked missing values and outliers.
+* Saved the validated dataset.
+
+### Day 5
+
+* Started Exploratory Data Analysis (EDA).
+* Analyzed booking distribution.
+* Explored hotel types.
+
+### Day 6
+
+* Analyzed customer booking behavior.
+* Studied cancellation patterns.
+* Added observations using Markdown.
+
+### Day 7
+
+* Reviewed Week 1 notebooks.
+* Organized project files.
+* Updated GitHub repository.
+
+---
+
+## Week 2 Progress
+
+### Day 1
+
+* Analyzed Average Daily Rate (ADR).
+
+### Day 2
+
+* Visualized ADR using Histogram, Box Plot, and Violin Plot.
+
+### Day 3
+
+* Compared ADR with booking cancellations.
+* Performed correlation analysis.
+
+### Day 4
+
+* Analyzed Lead Time and cancellation patterns.
+
+### Day 5
+
+* Studied booking behavior by Customer Type.
+
+### Day 6
+
+* Analyzed booking distribution by Market Segment.
+
+### Day 7
+
+* Reviewed all EDA notebooks.
+* Documented key observations.
+* Updated GitHub repository.
+
+---
+
+## Project Status
+
+* ✅ Week 1: Data Acquisition, Cleaning and Feature Engineering – Completed
+* ✅ Week 2: Exploratory Data Analysis (EDA) – Completed
+* 🔄 Week 3: Predictive Modeling – In Progress
+* ⏳ Week 4: Dashboard, Documentation and Final Presentation – Pending
+
+---
+
+## Repository Structure
+
+```text
+Travel-Tourism-Customer-Retention-Analysis
 │
-├── data/
-│   ├── raw/
-│   ├── cleaned/
-│   └── processed/
+├── data
+│   ├── raw
+│   ├── cleaned
+│   └── processed
 │
-├── notebooks/
-│   ├── Data Cleaning
-│   ├── Feature Engineering
-│   ├── Exploratory Data Analysis
-│   └── Customer Retention Analysis
+├── notebooks
 │
-├── outputs/
-│   ├── Charts
-│   ├── Reports
-│   └── Screenshots
+├── outputs
 │
 └── README.md
 ```
 
 ---
 
-# ✅ Week 1 Progress
+## Author
 
-### Day 1
-- Project setup
-- Dataset exploration
-- Initial data inspection
-- Missing value analysis
-
-### Day 2
-- Data cleaning
-- Removed duplicate records
-- Handled missing values
-- Converted data types
-
-### Day 3
-- Feature engineering
-- Created derived features
-- Booking-related metrics
-
-### Day 4
-- Data validation
-- Outlier detection
-- Dataset consistency verification
-
-### Day 5
-- Exploratory Data Analysis (EDA)
-- Booking trend analysis
-- Hotel type comparison
-
-### Day 6
-- Customer distribution analysis
-- Reservation status analysis
-- Booking behavior visualization
-
-### Day 7
-- Documentation
-- Dataset finalized
-- GitHub repository updated
-
----
-
-# ✅ Week 2 Progress
-
-### Day 1
-- Average Daily Rate (ADR) Analysis
-
-### Day 2
-- ADR Distribution Analysis
-- Histogram
-- Box Plot
-- Violin Plot
-
-### Day 3
-- ADR vs Booking Cancellation Analysis
-- Correlation Analysis
-- Business Insights
-
-### Day 4
-- Lead Time Analysis
-- Lead Time Categorization
-- Cancellation Rate by Lead Time
-
-### Day 5
-- Customer Type Analysis
-- Cancellation Rate by Customer Type
-
-### Day 6
-- Market Segment Analysis
-- Booking Distribution by Market Segment
-
-### Day 7
-- Combined Customer Type & Market Segment Analysis
-- Business Insights
-- Documentation and GitHub Update
-
----
-
-## 📊 Key Insights
-
-- Higher ADR bookings show a weak positive relationship with cancellations.
-- Longer lead times generally have higher cancellation rates.
-- Customer type influences booking cancellation behavior.
-- Market segment plays an important role in booking patterns.
-- Data-driven insights can help hotels improve customer retention.
-
----
-
-## 🚀 Upcoming Work
-
-- PostgreSQL Database Integration
-- SQL Query Analysis
-- Power BI Dashboard
-- Tableau Dashboard
-- KPI Development
-- Final Documentation
-
----
-
-## 📌 Project Status
-
-- ✅ Week 1 Completed
-- ✅ Week 2 Completed
-- 🔄 Week 3 In Progress
+**Niveditha Jayaram**
